@@ -1,0 +1,13 @@
+.App-header {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 200px 400px 0 400px;
+  padding: 50px 30px;
+}
+.open-source {
+  text-align: center;
+}
