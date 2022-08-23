@@ -1,18 +1,12 @@
 import Weather from "./Weather";
 import React from "react";
 
-import "./Styles.css";
+import "./App.css";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Weather Search App</h1>
-          <Weather />
-        </header>
-        <button btn btn-primary>
-          hello
-        </button>
+        <Weather defaulCity="New York" />
         <p className="open-source">
           {" "}
           This App was coded by Zoryana Tur and {""}{" "}
